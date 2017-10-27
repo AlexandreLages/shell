@@ -1,0 +1,15 @@
+<ion-view title="Verificar" id="page3">
+  <ion-content padding="true" class="has-header">
+    <form id="verificar-form5" class="list" ng-submit="verificarUsuario(user)" name="verificarUsuarioForm">
+      <label class="item item-input item-floating-label" id="verificar-input8">
+        <span class="input-label">Username</span>
+        <input type="text" placeholder="Username" ng-model="user.userName" ng-required="true">
+      </label>
+      <label class="item item-input item-floating-label" id="verificar-input9">
+        <span class="input-label">Password</span>
+        <input type="password" placeholder="Password" ng-model="user.password" ng-required="true">
+      </label>
+      <button id="verificar-button2" class="button button-balanced button-block">Verificar</button>
+    </form>
+  </ion-content>
+</ion-view>

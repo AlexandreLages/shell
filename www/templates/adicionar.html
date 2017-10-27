@@ -1,0 +1,15 @@
+<ion-view title="Adicionar" id="page2">
+  <ion-content padding="true" class="has-header">
+    <form id="adicionar-form4" class="list" ng-submit="adicionarUsuario(user)" name="adicionarUsuarioForm">
+      <label class="item item-input item-floating-label" id="adicionar-input5">
+        <span class="input-label">Username</span>
+        <input type="text" placeholder="Username" ng-model="user.userName" ng-required="true">
+      </label>
+      <label class="item item-input item-floating-label" id="adicionar-input6">
+        <span class="input-label">Password</span>
+        <input type="password" placeholder="Password" ng-model="user.password" ng-required="true">
+      </label>
+      <button type="submit" id="criarConta-button5" class="button icon-left button-balanced  button-block" ng-disabled="criarContaForm.$invalid">Adicionar</button>
+    </form>
+  </ion-content>
+</ion-view>
